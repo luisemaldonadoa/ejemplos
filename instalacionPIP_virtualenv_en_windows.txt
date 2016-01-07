@@ -1,0 +1,20 @@
+instalar pip virtualenv y django en windows 8.1
+download get-pip.py from https://pip.pypa.io/en/latest/installing/
+ejecutar:
+  python get-pip.py
+esperar a que se descargue e instale pip
+una ves instalado ejecutar:
+  pip install virtualenv
+crear un entorno virtual
+  ir a una carpeta de nuestra preferencia y ejecutar:
+	virtualenv entornoprueba
+  ya se creo el entorno pero no esta activado, para activar se debe ingresar 
+  a la carpeta entornoprueba que creo el comando anterior:
+	cd entornoprueba/scripts
+  dentro de scripts hay un archivo activate
+	escribir el comando activate y listo se activara el entornoprueba que generamos
+referencias
+descargas:
+	https://pip.pypa.io/en/latest/installing/
+videos:
+	https://www.youtube.com/watch?v=OXzah4f_39w
