@@ -32,20 +32,36 @@
       <div class="container-fluid">
             <h1>Ejemplo material y bootstrap</h1>
             <div class="row">
-              <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-                <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
-                  <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
-                    <i class="material-icons">search</i>
-                  </label> 
-                  <div class="mdl-textfield__expandable-holder">
-                    <input class="mdl-textfield__input" type="text" id="search-field" />
-                  </div>
-                </div>
+              <div class="color1 col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                 
               </div>
             </div>
       </div>
     </header>
     <div class="container">
+      <div class="android-navigation-container">
+        <nav class="android-navigation mdl-navigation">
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Smartphones</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Tablets</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Wearables</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">TVs</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Autos</a>
+        </nav>
+      </div>
+      <!-- Este es el menú desplegable característico de Google Material Design -->
+      <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+        <i class="material-icons">more_vert</i>
+      </button>
+      <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+        <li class="mdl-menu__item">5.0 Lollipop</li>
+        <li class="mdl-menu__item">4.4 KitKat</li>
+        <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+        <li class="mdl-menu__item">Historia de Android</li>
+       </ul>
+      <!-- Nuestro Logo -->
+      <span class="android-mobile-title mdl-layout-title">
+        <img class="android-logo-image" src="images/android-logo.png">
+      </span>
         <section class="main row">
             <article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
                 <p>
