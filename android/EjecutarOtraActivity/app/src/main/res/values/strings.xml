@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EjecutarOtraActivity</string>
+    <string name="activity1">Login</string>
+    <string name="btnLogin">Loguearse</string>
+    <string name="telefono">Telefono</string>
+    <string name="pass">Contraseña</string>
+    <string name="title_activity_evaluar_login">EvaluarLogin</string>
+</resources>
+
