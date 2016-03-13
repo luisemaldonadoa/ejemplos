@@ -44,7 +44,7 @@ public class HttpMethodsActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(String response) {
 
-                        // Result handling
+                        // Result
                         //System.out.println(response.substring(0,500));
                         System.out.println(response);
 
