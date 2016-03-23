@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CuadroDialogo</string>
+    <string name="title_activity_cuadro_con_api">CuadroConAPI</string>
 </resources>
