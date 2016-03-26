@@ -1,0 +1,1 @@
+insert into user (Nombre,APaterno,AMaterno,FecNac) values ('Luis Enrique','Maldonado','Arriaga',now())
