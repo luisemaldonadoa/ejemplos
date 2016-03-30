@@ -39,7 +39,8 @@ public class CuadroConAPI extends AppCompatActivity {
                 //AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
 
                 //alertDialogBuilder.setMessage("Mensaje");
-                String url = "http://httpbin.org/html";
+                //String url = "http://httpbin.org/html";
+                String url = "http://pruebasluis.260mb.net/api/api.php/user/1";
                 StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                         new Response.Listener<String>() {
                             @Override
